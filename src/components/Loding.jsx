@@ -39,7 +39,7 @@ const Loding = () => {
       opacity:0,
       stagger:0.2
     }).to(".up",{
-      display:"none",
+      opacity:0,
       delay:-2.5,
       stagger:0.2
     }).to(".bottom_container .bottom .down",{
