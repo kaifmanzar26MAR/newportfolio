@@ -1,0 +1,72 @@
+.loding_container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 99;
+    
+}
+.loding_container .name{
+    width: fit-content;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    gap:10px;
+    height: 100%;
+    position: relative;
+    
+}
+.loding_container .inner .name .latter{
+    font-size: 50rem;
+    position: absolute;
+    opacity: 1;  
+    display: hidden;
+    color: transparent;
+    
+}
+.welcome_container{
+    width: 100%;
+}
+.welcome_container .welcome{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+    width: fit-content;
+    
+}
+.welcome_container .welcome .up{
+    display: none;
+}
+.bottom_container{
+    width: 100%;
+    
+}
+.bottom_container .bottom{
+    width: fit-content;
+    display: flex;
+    font-weight: bold;
+    position: relative;
+    left: 80%;
+}
+.bottom_container .bottom .down{
+    color:white;
+    height: 30px;
+    opacity: 0;
+}
