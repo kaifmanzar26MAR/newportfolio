@@ -1,0 +1,63 @@
+.project_container{
+    padding: 20px 40px 20px 40px;
+    height: fit-content;
+}
+.project_container h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+.project_container .projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.projects .project{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 230px;
+}
+.project .img{
+    height: 130px;
+    width: 100%;
+}
+.project .amazon{
+    background-image: url('./amazon-clone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project .spotify{
+    background-image: url('./spotify-clone.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project .netflix{
+    background-image: url('./dalle-clone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project .weather{
+    background-image: url('./discord-clone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project .text{
+    padding: 15px;
+    height: 90px;
+}
+.text .dis{
+    margin-top: 3px;
+    font-size: small;
+    color: rgb(58, 58, 58);
+}

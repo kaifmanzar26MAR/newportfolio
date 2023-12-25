@@ -1,0 +1,81 @@
+.container{
+    width: calc(100vw - 310px);
+    position: relative;
+    left:300px;
+    top: 0;
+    overflow: hidden;
+    
+}
+.container .intro{
+    width: calc(100vw - 310px);
+    background-image: url('./cover.jpeg');
+    height: 240px;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+}
+.intro .cont{
+    width: calc(100vw - 310px);
+    height: 48%;
+    background-color: rgba(66, 66, 66, 0);
+    backdrop-filter: blur(7px);
+    padding-top: 125px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    
+}
+.cont .in_cont{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 55px;
+    align-items: center;
+}
+.in_cont .names{
+    color:rgb(241, 235, 235)
+}
+.names h3{
+    font-weight: 100;
+    font-size: 16px;
+    background-color: #1c1b23;
+    width: fit-content;
+    padding: 4px 8px 4px 8px;
+    border-radius: 15px;
+}
+.cont .image{
+    width: 120px;
+    height: 120px;
+    background-color: #747272;
+    border-radius: 50% 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image .img{
+    background-image: url('./me.png');
+    width: 95%;
+    height: 95%;
+    background-size: cover;
+    border-radius: 50% 50%;
+}
+
+.cont .followup{
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1b23;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}

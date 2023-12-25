@@ -2,7 +2,23 @@
   padding: 0;
   margin: 0;
 }
+/* for size */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* for background strip */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+/* for strip */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(38, 36, 46);
+  border-radius: 6px;
+}
 body{
   color: white;
-  background-color: rgb(28, 28, 28);
+  background-color: #14131a;
 }

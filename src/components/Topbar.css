@@ -1,0 +1,25 @@
+.top_bar{
+    width: calc(100vw - 350px);
+    position: fixed;
+    background-color: #14131a;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    z-index: 9;
+    padding-right: 60px;
+}
+.top_bar button{
+    padding:8px;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(58, 150, 65);
+    color:rgb(236, 234, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}

@@ -1,19 +1,20 @@
 import React, { useEffect } from 'react'
 import Loding from './components/Loding'
+import './App.css'
+import NavBar from './components/NavBar'
+import Content from './components/Content'
 const App = () => {
   useEffect(()=>{
     setTimeout(function(){
-      const loding=document.getElementsByTagName(Loding);
-      const main=document.getElementById('main');
-      main.style.display="flex";
-      loding.style.display="none";
-    },100000);
+      document.getElementById('main').style.display='flex';
+    },10500)
   },[])
   return (
     <div>
-      <Loding></Loding>
+      <Loding/>
       <div id='main'>
-        sadfasdf Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, commodi cum quaerat enim non tempore nobis aliquid vero sapiente aperiam sint asperiores? Voluptatibus facere odit culpa porro ad minus itaque!
+        <NavBar/>
+        <Content/>
       </div>
     </div>
   )

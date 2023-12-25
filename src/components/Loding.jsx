@@ -51,6 +51,14 @@ const Loding = () => {
       delay:-1
     })
 
+    t.to(".loding_container",{
+      top:"-100vh",
+      duration:1
+    })
+    t.to(".loding_container",{
+      display:"none"
+    })
+
    
     
    
@@ -67,7 +75,7 @@ const Loding = () => {
                 <span className="up">C</span>
                 <span className="up">O</span>
                 <span className="up">M</span>
-                <span className="up">E</span>&nbsp;
+                <span className="up">E</span>&nbsp;&nbsp;
                 <span className="up">T</span>
                 <span className="up">O</span>
               </div>
@@ -75,11 +83,11 @@ const Loding = () => {
            
             <div className="name">
               <span className="latter1 latter">M</span>
-              <span className="latter2 latter">D</span>&nbsp;
+              <span className="latter2 latter">D</span>&nbsp;&nbsp;
               <span className="latter3 latter">K</span>
               <span className="latter4 latter">A</span>
               <span className="latter5 latter">I</span>
-              <span className="latter6 latter">F</span>&nbsp;
+              <span className="latter6 latter">F</span>&nbsp;&nbsp;
               <span className="latter7 latter">M</span>
               <span className="latter8 latter">A</span>
               <span className="latter9 latter">N</span>
