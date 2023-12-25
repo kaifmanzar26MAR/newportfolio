@@ -64,7 +64,6 @@
 .what_container .right h1{
     font-weight: 500;
     font-size: 23px;
-    
 }
 .right .more_pro{
     padding-top: 20px;
@@ -80,13 +79,14 @@
     justify-content: center;
     gap: 10px;
     color: gray;
+    padding-right: 10px;
 }
 .m_pro .s_dis{
     width: 130px;
-    font-size: 11px;
+    font-size: 0.7vw;
     font-weight: 100;
     color: gray;
 }
 .s_dis h3{
-    font-size: 17px;
+    font-size: 1.5vw;
 }

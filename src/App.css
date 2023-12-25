@@ -2,3 +2,136 @@
     display: none;
     width: 100%;
 }
+@media (max-width:1100px) {
+    /* #main{
+        display: inline;
+    } */
+    #main .container{
+        /* background-color: rebeccapurple; */
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    .nav{
+        display: none;
+    }
+    #main .container .top_bar{
+        width: 95%;
+    }
+    #main .container .intro{
+        width: 100%;
+    }
+    #main .container .intro .cont{
+        width: 100%;
+    }
+    #main .container .what_container{
+        /* flex-direction: column; */
+        padding-left: 40px;
+    }
+    #main .container .what_container .right{
+        margin-top: 40px;
+    }
+    #main .container .what_container .right .more_pro .m_pro .s_dis{
+        font-size: 1.1vw;
+    }
+    #main .container .what_container .right .more_pro .m_pro .s_dis h3{
+        font-size: 1.7vw;
+    }
+    #main .container .project_container .projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #main .container .project_container .projects .project{
+        max-width: 40%;
+        height: 300px;
+    }
+    
+    #main .container .project_container .projects .project .img{
+        max-width: 100%;
+        height: 300px;
+    }
+    #main .container .top_bar .hamburgur{
+        display: block;
+    }
+    
+}
+@media (max-width:725px) {
+    #main .container .intro{
+        height: 200px;
+    }
+    #main .container .intro .cont{
+        height: 80px;
+    }
+    #main .container .intro .cont .in_cont{
+        display: flex;
+        gap:10px;
+    }
+    #main .container .intro .cont .in_cont .image{
+        width: 100px;
+        height: 100px;
+    }
+    #main .container .intro .cont .in_cont .names h1{
+        font-size: 6vw;
+    }
+    #main .container .intro .cont .in_cont .names h3{
+        font-size: 2.5vw;
+    }
+    #main .container .intro .cont .followup {
+        display: none;
+    }
+    #main .container .project_container .projects .project{
+        max-width: 100%;
+        height: 300px;
+    }
+    
+    #main .container .project_container .projects .project .img{
+        max-width: 100%;
+        height: 300px;
+    }
+    #main .container .what_container{
+        flex-direction: column;
+        height: fit-content;
+        
+    }
+    #main .container .what_container .left .left_in{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #main .container .what_container .left .left_in .skills{
+        min-height: fit-content;
+        min-width: 86%;
+    }
+    #main .container .what_container .left .left_in .skills .skill_con{
+        display: flex;
+        flex-direction: row;
+        min-width: 100%;
+    }
+    #main .container .what_container .right{
+        width: 86%;
+        margin-left: -30px;
+        min-height: fit-content;
+        margin-bottom: 20px;
+        padding-left: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #main .container .what_container .right .more_pro{
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: fit-content;
+        
+        
+    }
+    #main .container .what_container .right .more_pro .m_pro .s_dis{
+        font-size: 2vw;
+        min-width: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #main .container .what_container .right .more_pro .m_pro .s_dis h3{
+        font-size: 4vw;
+    }
+    
+}

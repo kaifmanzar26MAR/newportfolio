@@ -15,7 +15,7 @@ const WhatIKnow = () => {
                         <p>CSS</p>
                         <p style={{border:'1px solid skyblue'}}>Tailwind</p>
                         <p style={{border:'1px solid orange'}}>Javascript</p>
-                        <p style={{border:'1px solid skyblue'}}>React Js</p>
+                        <p style={{border:'1px solid purple'}}>React Js</p>
                         <p>Next Js</p>
                     </div>
                 </div>

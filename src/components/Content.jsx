@@ -21,7 +21,7 @@ const Content = () => {
               </div>
               
               <div className="followup">
-                  <FaInstagram size={25}/>
+                  <FaInstagram size={25} id='icon'/>
                   <p>Follow me on Instagram</p>
               </div> 
           </div>
